@@ -55,7 +55,7 @@ public class JavaToJSON {
 			wr.flush();
 
 			int responseCode = con.getResponseCode();
-			logger.info("Cnam response Code : " + responseCode);
+			logger.info("Response Code : " + responseCode);
 
 			in = new BufferedReader(new InputStreamReader(con.getInputStream()));
 			String inputLine;
